@@ -1,0 +1,186 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .mark-through {
+    text-decoration: line-through;
+    color: gray;
+  }
+  .icon {
+    /* display: flex; */
+    align-items: center;
+  }
+  .update-button {
+    /* display: flex; */
+    align-items: center;
+  }
+  .line .icon {
+    margin-right: 10px;
+    font-size: 15px;
+  }
+  .line {
+    display: flex;
+    align-items: center;
+  }
+  .container-todo {
+    height: auto;
+  border: 3px green solid;
+    width: 550px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  #done {
+    margin-top: 20px;
+    display: flex;
+  }
+  .main {
+    font-size: 45px;
+    margin-bottom: 45px;
+  }
+  #done-toggle {
+    margin-left: 10px;
+    font-size: 25px;
+    margin-bottom: 25px;
+  }
+  .task-header {
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 25px;
+    /* display: flex; */
+  }
+  .btn-toggle {
+    margin-top: 25px;
+    /* position: relative; */
+    /* font-size: 15px; */
+    height: 30px;
+    width: 30px;
+    outline: darkolivegreen;
+    border: .2rem solid green;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  .btn-toggle:hover {
+      border: .2rem solid neon green;
+  }
+  span {
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+  }
+  .span-text {
+    display: inline;
+    position: absolute;
+    display: flex;
+    margin-top: -5px;
+    text-align: center;
+  }
+  .span-check {
+    font-size: 12px;
+    display: flex;
+    margin-right: -10px;
+    /* display: inline; */
+    /* position: relative; */
+    /* align-items: right; */
+    flex-direction: column;
+    /* margin-bottom: 85px ; */
+  }
+  .updated-container {
+    position: relative;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .icon {
+    margin-right: 10px;
+  }
+  .btn-icon {
+    margin: 15px;
+  }
+  .toggle-container {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    /* position: relative; */
+    text-align: center;
+    /* align-items: flex-end; */
+    justify-content: right;
+  }
+  #todo-task {
+    text-align: center;
+    font-size: 25px;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* margin-bottom:5px ; */
+    /* margin-left: 140px; */
+    /* justify-content: space-around; */
+  
+    margin-bottom: 25px;
+  }
+  .task-complete {
+    font-size: 34px;
+    /* display: flex; */
+    /* text-align: center; */
+    /* justify-content: center; */
+    /* align-items: ; */
+    /* gap: 10px; */
+  }
+  .save-btn {
+    background-color: green;
+    color: white;
+    /* height: auto; */
+    /* width: auto; */
+    height: 35px;
+    padding: 2px;
+    width: 65px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    /* margin-top: 20px; */
+    /* gap: 10px; */
+    font-size: 15px;
+    text-align: center;
+  }
+  .btn-edit-icon {
+    font-size: 15px;
+    margin-right: 10px;
+    margin-left: 45px;
+    cursor: pointer;
+    background-color: green;
+  }
+  .save-btn:hover {
+    background-color: darkgreen;
+  }
+  .update-input {
+    height: 40px;
+    margin-right: 15px;
+    width: 170px;
+    margin-top: 10px;
+    border-radius: 10px;
+    display: flex;
+    padding: 15px;
+    margin-bottom: 10px;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+  }
+  .btn-delete {
+      margin-left: 25px;
+      width: auto;
+      text-align: center;
+  }
+  .createdAt {
+    font-size: 18px;
+  
+  }
